@@ -1,0 +1,44 @@
+<!ELEMENT countries (country+)>
+
+<!ELEMENT country (name, government, geography, society, economy)>
+
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT government (chief-of-state, head-of-government, government-type, capital, legislature, judiciary)>
+<!ELEMENT geography (area, climate, natural-resources)>
+<!ELEMENT society (population, language)>
+<!ELEMENT economy (overview, gdp, gdp-per-capita)>
+
+<!ELEMENT chief-of-state (person)>
+<!ELEMENT head-of-government (person)>
+<!ELEMENT government-type (text)>
+<!ELEMENT capital (city)>
+<!ELEMENT legislature (house+)>
+<!ELEMENT judiciary (court+)>
+<!ELEMENT area (unit, total, land, water)>
+<!ELEMENT climate (text+)>
+<!ELEMENT natural-resources (natural-resource+)>
+<!ELEMENT population (unit, total)>
+<!ELEMENT language (official+, unofficial*, other?)>
+<!ELEMENT overview (text)>
+<!ELEMENT gdp (unit, dollar)>
+<!ELEMENT gdp-per-capita (dollar)>
+
+<!ELEMENT person (name)>
+<!ELEMENT text (#PCDATA)>
+<!ELEMENT city (name)>
+<!ELEMENT house (original-name, name, seats)>
+<!ELEMENT court (name, members)>
+<!ELEMENT unit (#PCDATA)>
+<!ELEMENT total (#PCDATA)>
+<!ELEMENT land (#PCDATA)>
+<!ELEMENT water (#PCDATA)>
+<!ELEMENT natural-resource (#PCDATA)>
+<!ELEMENT official (name, original-name?, percentage?)>
+<!ELEMENT unofficial (name, original-name?, percentage?)>
+<!ELEMENT other (percentage)>
+<!ELEMENT dollar (#PCDATA)>
+
+<!ELEMENT original-name (#PCDATA)>
+<!ELEMENT seats (#PCDATA)>
+<!ELEMENT members (#PCDATA)>
+<!ELEMENT percentage (#PCDATA)>

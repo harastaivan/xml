@@ -1,5 +1,11 @@
 # XML závěrečná práce
 
+## Příkazy
+
+### DTD
+
+`xmllint --noout --dtdvalid countries.dtd countries.xml`
+
 ## Zadání
 
 - Vytvořte XML dokumenty se všemi daty pro každou zadanou oblast (z
