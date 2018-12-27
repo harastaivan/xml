@@ -221,4 +221,111 @@
             </gdp-per-capita>
         </economy>
     </country>
+    <country>
+        <name>United States</name>
+        <government>
+            <chief-of-state>
+                <person>
+                    <name>President Donald J. TRUMP</name>
+                </person>
+            </chief-of-state>
+            <head-of-government>
+                <person>
+                    <name>President Donald J. TRUMP</name>
+                </person>
+            </head-of-government>
+            <government-type>
+                <text>constitutional federal republic</text>
+            </government-type>
+            <capital>
+                <city>
+                    <name>Washington, DC</name>
+                </city>
+            </capital>
+            <legislature>
+                <house>
+                    <original-name>Senate</original-name>
+                    <name>Senate</name>
+                    <seats>100</seats>
+                </house>
+                <house>
+                    <original-name>the House of Representatives</original-name>
+                    <name>the House of Representatives</name>
+                    <seats>435</seats>
+                </house>
+            </legislature>
+            <judiciary>
+                <court>
+                    <name>US Supreme Court</name>
+                    <members>9</members>
+                </court>
+            </judiciary>
+        </government>
+        <geography>
+            <area>
+                <unit>sq km</unit>
+                <total>9 833 517</total>
+                <land>9 147 593</land>
+                <water>685 924</water>
+            </area>
+            <climate>
+                <text>mostly temperate, but tropical in Hawaii and Florida, arctic in Alaska, semiarid in the great plains west of the Mississippi River, and arid in the Great Basin of the southwest; low winter temperatures in the northwest are ameliorated occasionally in January and February by warm chinook winds from the eastern slopes of the Rocky Mountains</text>
+            </climate>
+            <natural-resources>
+                <natural-resource>coal</natural-resource>
+                <natural-resource>copper</natural-resource>
+                <natural-resource>lead</natural-resource>
+                <natural-resource>molybdenum</natural-resource>
+                <natural-resource>phosphates</natural-resource>
+                <natural-resource>rare earth elements</natural-resource>
+                <natural-resource>uranium</natural-resource>
+                <natural-resource>bauxite</natural-resource>
+                <natural-resource>gold</natural-resource>
+                <natural-resource>iron</natural-resource>
+                <natural-resource>mercury</natural-resource>
+                <natural-resource>nickel</natural-resource>
+                <natural-resource>potash</natural-resource>
+            </natural-resources>
+        </geography>
+        <society>
+            <population>
+                <unit>million</unit>
+                <total>326,6</total>
+            </population>
+            <language>
+                <official>
+                    <name>English</name>
+                    <percentage>79</percentage>
+                </official>
+                <unofficial>
+                    <name>Spanish</name>
+                    <percentage>13</percentage>
+                </unofficial>
+                <unofficial>
+                    <name>other Indo-European</name>
+                    <percentage>3,7</percentage>
+                </unofficial>
+                <unofficial>
+                    <name>Asian and
+Pacific island</name>
+                    <percentage>3,4</percentage>
+                </unofficial>
+                <other>
+                    <percentage>1</percentage>
+                </other>
+            </language>
+        </society>
+        <economy>
+            <overview>
+                <text>remains the most technologically powerful economy in the world – at the forefront in computers, pharmaceuticals, aerospace and military equipment – but its advantages have narrowed since WWII, with output now falling behind China’s, as investment in infrastructure, science, industry, and human capital have lagged</text>
+            </overview>
+            <gdp>
+                <unit>trillion</unit>
+                <dollar>19,39</dollar>
+            </gdp>
+            <gdp-per-capita>
+                <dollar>59 500</dollar>
+            </gdp-per-capita>
+        </economy>
+    </country>
 </countries>
