@@ -103,4 +103,122 @@
             </gdp-per-capita>
         </economy>
     </country>
+    <country>
+        <name>Canada</name>
+        <government>
+            <chief-of-state>
+                <person>
+                    <name>Queen ELIZABETH II</name>
+                </person>
+            </chief-of-state>
+            <head-of-government>
+                <person>
+                    <name>Prime Minister Justin Pierre James TRUDEAU</name>
+                </person>
+            </head-of-government>
+            <government-type>
+                <text>parliamentary democracy (Parliament) under a constitutional monarchy; a Commonwealth realm</text>
+            </government-type>
+            <capital>
+                <city>
+                    <name>Ottawa</name>
+                </city>
+            </capital>
+            <legislature>
+                <house>
+                    <original-name>Senat</original-name>
+                    <name>Senate</name>
+                    <seats>105</seats>
+                </house>
+                <house>
+                    <original-name>Chambre des Communes</original-name>
+                    <name>House of Commons</name>
+                    <seats>338</seats>
+                </house>
+            </legislature>
+            <judiciary>
+                <court>
+                    <name>Supreme Court of Canada</name>
+                    <members>9</members>
+                </court>
+            </judiciary>
+        </government>
+        <geography>
+            <area>
+                <unit>sq km</unit>
+                <total>9 984 670</total>
+                <land>9 093 507</land>
+                <water>891 163</water>
+            </area>
+            <climate>
+                <text>varies from temperate in south to subarctic and arctic in north</text>
+            </climate>
+            <natural-resources>
+                <natural-resource>iron ore</natural-resource>
+                <natural-resource>nickel</natural-resource>
+                <natural-resource>zinc</natural-resource>
+                <natural-resource>copper</natural-resource>
+                <natural-resource>gold</natural-resource>
+                <natural-resource>lead</natural-resource>
+                <natural-resource>rare earth elements</natural-resource>
+                <natural-resource>molybdenum</natural-resource>
+                <natural-resource>potash</natural-resource>
+                <natural-resource>diamonds</natural-resource>
+                <natural-resource>silver</natural-resource>
+                <natural-resource>fish</natural-resource>
+                <natural-resource>timber</natural-resource>
+            </natural-resources>
+        </geography>
+        <society>
+            <population>
+                <unit>million</unit>
+                <total>35,6</total>
+            </population>
+            <language>
+                <official>
+                    <name>English</name>
+                    <percentage>58.7</percentage>
+                </official>
+                <official>
+                    <name>French</name>
+                    <percentage>22</percentage>
+                </official>
+                <unofficial>
+                    <name>Punjabi</name>
+                    <percentage>1,4</percentage>
+                </unofficial>
+                <unofficial>
+                    <name>Italian</name>
+                    <percentage>1,3</percentage>
+                </unofficial>
+                <unofficial>
+                    <name>Spanish</name>
+                    <percentage>1,3</percentage>
+                </unofficial>
+                <unofficial>
+                    <name>German</name>
+                    <percentage>1,3</percentage>
+                </unofficial>
+                <unofficial>
+                    <name>Cantonese</name>
+                    <percentage>1,2</percentage>
+                </unofficial>
+                <other>
+                    <percentage>12,8</percentage>
+                </other>
+            </language>
+        </society>
+        <economy>
+            <overview>
+                <text>achieved strong growth since World War II by combining abundant natural resources, a highly skilled labor force, and modern capital stock with close economic ties to the US </text>
+            </overview>
+            <gdp>
+                <unit>trillion</unit>
+                <dollar>1,769</dollar>
+            </gdp>
+            <gdp-per-capita>
+                <dollar>48 300</dollar>
+            </gdp-per-capita>
+        </economy>
+    </country>
 </countries>
