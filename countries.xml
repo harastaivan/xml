@@ -328,4 +328,105 @@ Pacific island</name>
             </gdp-per-capita>
         </economy>
     </country>
+    <country>
+        <name>China</name>
+        <government>
+            <chief-of-state>
+                <person>
+                    <name>President XI Jinping</name>
+                </person>
+            </chief-of-state>
+            <head-of-government>
+                <person>
+                    <name>Premier LI Keqiang</name>
+                </person>
+            </head-of-government>
+            <government-type>
+                <text>communist state</text>
+            </government-type>
+            <capital>
+                <city>
+                    <name>Beijing</name>
+                </city>
+            </capital>
+            <legislature>
+                <house>
+                    <original-name>Quanguo Renmin Daibiao Dahui</original-name>
+                    <name>National People's Congress</name>
+                    <seats>2 987</seats>
+                </house>
+            </legislature>
+            <judiciary>
+                <court>
+                    <name>Supreme People's Court</name>
+                    <members>340</members>
+                </court>
+            </judiciary>
+        </government>
+        <geography>
+            <area>
+                <unit>sq km</unit>
+                <total>9,596,960</total>
+                <land>9,326,410</land>
+                <water>270,550</water>
+            </area>
+            <climate>
+                <text>extremely diverse</text>
+                <text>tropical in south to subarctic in north</text>
+            </climate>
+            <natural-resources>
+                <natural-resource>coal</natural-resource>
+                <natural-resource>iron ore</natural-resource>
+                <natural-resource>petroleum</natural-resource>
+                <natural-resource>natural gas</natural-resource>
+                <natural-resource>mercury</natural-resource>
+                <natural-resource>tin</natural-resource>
+                <natural-resource>tungsten</natural-resource>
+                <natural-resource>antimony</natural-resource>
+                <natural-resource>manganese</natural-resource>
+                <natural-resource>molybdenum</natural-resource>
+                <natural-resource>vanadium</natural-resource>
+                <natural-resource>magnetite</natural-resource>
+            </natural-resources>
+        </geography>
+        <society>
+            <population>
+                <unit>billion</unit>
+                <total>1,38</total>
+            </population>
+            <language>
+                <official>
+                    <name>Standard Chinese or Mandarin</name>
+                </official>
+                <unofficial>
+                    <name>Cantonese</name>
+                    <original-name>Yue</original-name>
+                </unofficial>
+                <unofficial>
+                    <name>Shanghainese</name>
+                    <original-name>Wu</original-name>
+                </unofficial>
+                <unofficial>
+                    <name>Fuzhou</name>
+                    <original-name>Minbei</original-name>
+                </unofficial>
+                <unofficial>
+                    <name>Hokkien-Taiwanese</name>
+                    <original-name>Minnan</original-name>
+                </unofficial>
+            </language>
+        </society>
+        <economy>
+            <overview>
+                <text>largest economy and exporter in the world, but one that continues to pursue statedirected industrial, trade, and investment policies, including state-support of key sectors</text>
+            </overview>
+            <gdp>
+                <unit>trillion</unit>
+                <dollar>23,12</dollar>
+            </gdp>
+            <gdp-per-capita>
+                <dollar>16,600</dollar>
+            </gdp-per-capita>
+        </economy>
+    </country>
 </countries>
