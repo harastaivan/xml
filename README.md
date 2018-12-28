@@ -6,6 +6,10 @@
 
 `xmllint --noout --dtdvalid countries.dtd countries.xml`
 
+### RelaxNG
+
+`xmllint --noout --relaxng countries.rng countries.xml `
+
 ## Zadání
 
 - Vytvořte XML dokumenty se všemi daty pro každou zadanou oblast (z

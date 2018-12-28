@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<element name="countries" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
+    <oneOrMore>
+        <element name="country">
+            <element name="name">
+                <data type="string"/>
+            </element>
+            <element name="government">
+                <element name="chief-of-state">
+                    <element name="person">
+                        <element name="name">
+                            <data type="string"/>
+                        </element>
+                    </element>
+                </element>
+                <element name="head-of-government">
+                    <element name="person">
+                        <element name="name">
+                            <data type="string"/>
+                        </element>
+                    </element>
+                </element>
+                <element name="government-type">
+                    <element name="text">
+                        <data type="string"/>
+                    </element>
+                </element>
+                <element name="capital">
+                    <element name="city">
+                        <element name="name">
+                            <data type="string"/>
+                        </element>
+                    </element>
+                </element>
+                <element name="legislature">
+                    <oneOrMore>
+                        <element name="house">
+                            <element name="original-name">
+                                <data type="string"/>
+                            </element>
+                            <element name="name">
+                                <data type="string"/>
+                            </element>
+                            <element name="seats">
+                                <data type="string"/>
+                            </element>
+                        </element>
+                    </oneOrMore>
+                </element>
+                <element name="judiciary">
+                    <oneOrMore>
+                        <element name="court">
+                            <element name="name">
+                                <data type="string"/>
+                            </element>
+                            <element name="members">
+                                <data type="string"/>
+                            </element>
+                        </element>
+                    </oneOrMore>
+                </element>
+            </element>
+            <element name="geography">
+                <element name="area">
+                    <element name="unit">
+                        <data type="string"/>
+                    </element>
+                    <element name="total">
+                        <data type="string"/>
+                    </element>
+                    <element name="land">
+                        <data type="string"/>
+                    </element>
+                    <element name="water">
+                        <data type="string"/>
+                    </element>
+                </element>
+                <element name="climate">
+                    <oneOrMore>
+                        <element name="text">
+                            <data type="string"/>
+                        </element>
+                    </oneOrMore>
+                </element>
+                <element name="natural-resources">
+                    <oneOrMore>
+                        <element name="natural-resource">
+                            <data type="string"/>
+                        </element>
+                    </oneOrMore>
+                </element>
+            </element>
+            <element name="society">
+                <element name="population">
+                    <element name="unit">
+                        <data type="string"/>
+                    </element>
+                    <element name="total">
+                        <data type="string"/>
+                    </element>
+                </element>
+                <element name="language">
+                    <oneOrMore>
+                        <element name="official">
+                            <element name="name">
+                                <data type="string"/>
+                            </element>
+                            <optional>
+                                <element name="original-name">
+                                    <data type="string"/>
+                                </element>
+                            </optional>
+                            <optional>
+                                <element name="percentage">
+                                    <data type="string"/>
+                                </element>
+                            </optional>
+                        </element>
+                    </oneOrMore>
+                    <zeroOrMore>
+                        <element name="unofficial">
+                            <element name="name">
+                                <data type="string"/>
+                            </element>
+                            <optional>
+                                <element name="original-name">
+                                    <data type="string"/>
+                                </element>
+                            </optional>
+                            <optional>
+                                <element name="percentage">
+                                    <data type="string"/>
+                                </element>
+                            </optional>
+                        </element>
+                    </zeroOrMore>
+                    <optional>
+                        <element name="other">
+                            <element name="percentage">
+                                <data type="string"/>
+                            </element>
+                        </element>
+                    </optional>
+                </element>
+            </element>
+            <element name="economy">
+                <element name="overview">
+                    <element name="text">
+                        <data type="string"/>
+                    </element>
+                </element>
+                <element name="gdp">
+                    <element name="unit">
+                        <data type="string"/>
+                    </element>
+                    <element name="dollar">
+                        <data type="string"/>
+                    </element>
+                </element>
+                <element name="gdp-per-capita">
+                    <element name="dollar">
+                        <data type="string"/>
+                    </element>
+                </element>
+            </element>
+        </element>
+    </oneOrMore>
+</element>
