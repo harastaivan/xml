@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <countries>
-    <country id="1">
+    <country id="id_1">
         <name>Russia</name>
         <government>
             <chief-of-state>
@@ -103,7 +103,7 @@
             </gdp-per-capita>
         </economy>
     </country>
-    <country id="2">
+    <country id="id_2">
         <name>Canada</name>
         <government>
             <chief-of-state>
@@ -221,7 +221,7 @@
             </gdp-per-capita>
         </economy>
     </country>
-    <country id="3">
+    <country id="id_3">
         <name>United States</name>
         <government>
             <chief-of-state>
@@ -328,7 +328,7 @@ Pacific island</name>
             </gdp-per-capita>
         </economy>
     </country>
-    <country id="4">
+    <country id="id_4">
         <name>China</name>
         <government>
             <chief-of-state>

@@ -3,7 +3,7 @@
     <oneOrMore>
         <element name="country">
             <attribute name="id">
-                <data type="int"/>
+                <data type="string"/>
             </attribute>
             <element name="name">
                 <data type="string"/>

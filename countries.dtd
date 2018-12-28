@@ -42,3 +42,5 @@
 <!ELEMENT seats (#PCDATA)>
 <!ELEMENT members (#PCDATA)>
 <!ELEMENT percentage (#PCDATA)>
+
+<!ATTLIST country id ID #REQUIRED>
