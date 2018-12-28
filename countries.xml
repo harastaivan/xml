@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 
 <countries>
-    <country>
+    <country id="1">
         <name>Russia</name>
         <government>
             <chief-of-state>
@@ -48,9 +48,9 @@
         <geography>
             <area>
                 <unit>sq km</unit>
-                <total>17 098 242</total>
-                <land>16 377 742</land>
-                <water>720 500</water>
+                <total>17098242</total>
+                <land>16377742</land>
+                <water>720500</water>
             </area>
             <climate>
                 <text>ranges from steppes in the south through humid continental in much of European Russia</text>
@@ -70,23 +70,23 @@
         <society>
             <population>
                 <unit>million</unit>
-                <total>142,3</total>
+                <total>142.3</total>
             </population>
             <language>
                 <official>
                     <name>Russian</name>
-                    <percentage>85,7</percentage>
+                    <percentage>85.7</percentage>
                 </official>
                 <unofficial>
                     <name>Tatar</name>
-                    <percentage>3,2</percentage>
+                    <percentage>3.2</percentage>
                 </unofficial>
                 <unofficial>
                     <name>Chechen</name>
                     <percentage>1</percentage>
                 </unofficial>
                 <other>
-                    <percentage>10,1</percentage>
+                    <percentage>10.1</percentage>
                 </other>
             </language>
         </society>
@@ -99,11 +99,11 @@
                 <dollar>4</dollar>
             </gdp>
             <gdp-per-capita>
-                <dollar>27 900</dollar>
+                <dollar>27900</dollar>
             </gdp-per-capita>
         </economy>
     </country>
-    <country>
+    <country id="2">
         <name>Canada</name>
         <government>
             <chief-of-state>
@@ -146,9 +146,9 @@
         <geography>
             <area>
                 <unit>sq km</unit>
-                <total>9 984 670</total>
-                <land>9 093 507</land>
-                <water>891 163</water>
+                <total>9984670</total>
+                <land>9093507</land>
+                <water>891163</water>
             </area>
             <climate>
                 <text>varies from temperate in south to subarctic and arctic in north</text>
@@ -172,7 +172,7 @@
         <society>
             <population>
                 <unit>million</unit>
-                <total>35,6</total>
+                <total>35.6</total>
             </population>
             <language>
                 <official>
@@ -185,26 +185,26 @@
                 </official>
                 <unofficial>
                     <name>Punjabi</name>
-                    <percentage>1,4</percentage>
+                    <percentage>1.4</percentage>
                 </unofficial>
                 <unofficial>
                     <name>Italian</name>
-                    <percentage>1,3</percentage>
+                    <percentage>1.3</percentage>
                 </unofficial>
                 <unofficial>
                     <name>Spanish</name>
-                    <percentage>1,3</percentage>
+                    <percentage>1.3</percentage>
                 </unofficial>
                 <unofficial>
                     <name>German</name>
-                    <percentage>1,3</percentage>
+                    <percentage>1.3</percentage>
                 </unofficial>
                 <unofficial>
                     <name>Cantonese</name>
-                    <percentage>1,2</percentage>
+                    <percentage>1.2</percentage>
                 </unofficial>
                 <other>
-                    <percentage>12,8</percentage>
+                    <percentage>12.8</percentage>
                 </other>
             </language>
         </society>
@@ -214,14 +214,14 @@
             </overview>
             <gdp>
                 <unit>trillion</unit>
-                <dollar>1,769</dollar>
+                <dollar>1.769</dollar>
             </gdp>
             <gdp-per-capita>
-                <dollar>48 300</dollar>
+                <dollar>48300</dollar>
             </gdp-per-capita>
         </economy>
     </country>
-    <country>
+    <country id="3">
         <name>United States</name>
         <government>
             <chief-of-state>
@@ -264,9 +264,9 @@
         <geography>
             <area>
                 <unit>sq km</unit>
-                <total>9 833 517</total>
-                <land>9 147 593</land>
-                <water>685 924</water>
+                <total>9833517</total>
+                <land>9147593</land>
+                <water>685924</water>
             </area>
             <climate>
                 <text>mostly temperate, but tropical in Hawaii and Florida, arctic in Alaska, semiarid in the great plains west of the Mississippi River, and arid in the Great Basin of the southwest; low winter temperatures in the northwest are ameliorated occasionally in January and February by warm chinook winds from the eastern slopes of the Rocky Mountains</text>
@@ -290,7 +290,7 @@
         <society>
             <population>
                 <unit>million</unit>
-                <total>326,6</total>
+                <total>326.6</total>
             </population>
             <language>
                 <official>
@@ -303,12 +303,12 @@
                 </unofficial>
                 <unofficial>
                     <name>other Indo-European</name>
-                    <percentage>3,7</percentage>
+                    <percentage>3.7</percentage>
                 </unofficial>
                 <unofficial>
                     <name>Asian and
 Pacific island</name>
-                    <percentage>3,4</percentage>
+                    <percentage>3.4</percentage>
                 </unofficial>
                 <other>
                     <percentage>1</percentage>
@@ -321,14 +321,14 @@ Pacific island</name>
             </overview>
             <gdp>
                 <unit>trillion</unit>
-                <dollar>19,39</dollar>
+                <dollar>19.39</dollar>
             </gdp>
             <gdp-per-capita>
-                <dollar>59 500</dollar>
+                <dollar>59500</dollar>
             </gdp-per-capita>
         </economy>
     </country>
-    <country>
+    <country id="4">
         <name>China</name>
         <government>
             <chief-of-state>
@@ -353,7 +353,7 @@ Pacific island</name>
                 <house>
                     <original-name>Quanguo Renmin Daibiao Dahui</original-name>
                     <name>National People's Congress</name>
-                    <seats>2 987</seats>
+                    <seats>2987</seats>
                 </house>
             </legislature>
             <judiciary>
@@ -366,9 +366,9 @@ Pacific island</name>
         <geography>
             <area>
                 <unit>sq km</unit>
-                <total>9,596,960</total>
-                <land>9,326,410</land>
-                <water>270,550</water>
+                <total>9596960</total>
+                <land>9326410</land>
+                <water>270550</water>
             </area>
             <climate>
                 <text>extremely diverse</text>
@@ -392,7 +392,7 @@ Pacific island</name>
         <society>
             <population>
                 <unit>billion</unit>
-                <total>1,38</total>
+                <total>1.38</total>
             </population>
             <language>
                 <official>
@@ -422,10 +422,10 @@ Pacific island</name>
             </overview>
             <gdp>
                 <unit>trillion</unit>
-                <dollar>23,12</dollar>
+                <dollar>23.12</dollar>
             </gdp>
             <gdp-per-capita>
-                <dollar>16,600</dollar>
+                <dollar>16600</dollar>
             </gdp-per-capita>
         </economy>
     </country>

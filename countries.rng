@@ -2,6 +2,9 @@
 <element name="countries" xmlns="http://relaxng.org/ns/structure/1.0" datatypeLibrary="http://www.w3.org/2001/XMLSchema-datatypes">
     <oneOrMore>
         <element name="country">
+            <attribute name="id">
+                <data type="int"/>
+            </attribute>
             <element name="name">
                 <data type="string"/>
             </element>
@@ -42,7 +45,7 @@
                                 <data type="string"/>
                             </element>
                             <element name="seats">
-                                <data type="string"/>
+                                <data type="int"/>
                             </element>
                         </element>
                     </oneOrMore>
@@ -54,7 +57,7 @@
                                 <data type="string"/>
                             </element>
                             <element name="members">
-                                <data type="string"/>
+                                <data type="int"/>
                             </element>
                         </element>
                     </oneOrMore>
@@ -66,13 +69,13 @@
                         <data type="string"/>
                     </element>
                     <element name="total">
-                        <data type="string"/>
+                        <data type="int"/>
                     </element>
                     <element name="land">
-                        <data type="string"/>
+                        <data type="int"/>
                     </element>
                     <element name="water">
-                        <data type="string"/>
+                        <data type="int"/>
                     </element>
                 </element>
                 <element name="climate">
@@ -96,7 +99,7 @@
                         <data type="string"/>
                     </element>
                     <element name="total">
-                        <data type="string"/>
+                        <data type="float"/>
                     </element>
                 </element>
                 <element name="language">
@@ -112,7 +115,7 @@
                             </optional>
                             <optional>
                                 <element name="percentage">
-                                    <data type="string"/>
+                                    <data type="float"/>
                                 </element>
                             </optional>
                         </element>
@@ -129,7 +132,7 @@
                             </optional>
                             <optional>
                                 <element name="percentage">
-                                    <data type="string"/>
+                                    <data type="float"/>
                                 </element>
                             </optional>
                         </element>
@@ -137,7 +140,7 @@
                     <optional>
                         <element name="other">
                             <element name="percentage">
-                                <data type="string"/>
+                                <data type="float"/>
                             </element>
                         </element>
                     </optional>
@@ -154,12 +157,12 @@
                         <data type="string"/>
                     </element>
                     <element name="dollar">
-                        <data type="string"/>
+                        <data type="float"/>
                     </element>
                 </element>
                 <element name="gdp-per-capita">
                     <element name="dollar">
-                        <data type="string"/>
+                        <data type="float"/>
                     </element>
                 </element>
             </element>

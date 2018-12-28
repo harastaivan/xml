@@ -8,11 +8,11 @@
 
 ### RelaxNG
 
-`xmllint --noout --relaxng countries.rng countries.xml `
+`xmllint --noout --relaxng countries.rng countries.xml`
 
 ## Zadání
 
-- Vytvořte XML dokumenty se všemi daty pro každou zadanou oblast (z
+- [x] Vytvořte XML dokumenty se všemi daty pro každou zadanou oblast (z
   https://www.cia.gov/library/publications/the-world-factbook/). Podrobnosti
   k výběru oblastí jsou v souboru "BI-XML-PROJEKT-VÝBĚR-ZADÁNÍ.txt". Pokud
   nezvládnete v dokumentu uvést všechna data o dané oblasti (např. protože
@@ -20,18 +20,18 @@
   všech hlavních sekcí (tj. Introduction, Geography, atd.). Dále spojte XML
   dokumenty pro jednotlivé oblasti do jediného dokumentu pomocí DTD.
 
-- Vytvořte schema pomocí DTD i RelaxNG pro validaci struktury XML
+- [x] Vytvořte schema pomocí DTD i RelaxNG pro validaci struktury XML
   dokumentů. V RelaxNG schema se pokuste využít alespoň některé možnosti
   pokročilejší validace co jazyk nabízí navíc oproti DTD.
 
-- Pomocí XSLT vygenerujte (X)HTML výstupy (tj. souhrný index obsahující
+- [ ] Pomocí XSLT vygenerujte (X)HTML výstupy (tj. souhrný index obsahující
   odkazy na jednotlivé oblasti a samostatnou stránku pro každou oblast
   obsahující detailní informace).
 
-- Pomocí XSL-FO vygenerujte PDF výstup (tj. dokument obsahující odkazy na
+- [ ] Pomocí XSL-FO vygenerujte PDF výstup (tj. dokument obsahující odkazy na
   jednotlivé oblasti a detailní informace o každé oblasti).
 
-- Buď vygenerujte ePub výstup (tj. ebook připravený k načtení v software
+- [ ] Buď vygenerujte ePub výstup (tj. ebook připravený k načtení v software
   podporujícím ePub formát), nebo do (X)HTML a PDF výstupů přidejte obrázky
   (stačí vlajky nebo mapy a podobně), navigaci pro sekce s detailními
   informacemi (stačí pro hlavní sekce jako "Introduction", "Geography",
@@ -39,23 +39,23 @@
   (použijte CSS a možnosti formátování v XSL-FO včetně číslování stran a
   přidání záhlaví či zápatí).
 
-- Schema (DTD i RelaxNG), stylesheety (XSLT i XSL-FO) a další části
+- [ ] Schema (DTD i RelaxNG), stylesheety (XSLT i XSL-FO) a další části
   projektu tvořte adekvátně obecné aby byla zajištěna funkčnost pro všechny
   zadané oblasti. Všechny XML dokumenty musí být "well-formed" + "valid". I
   základní výstupy bez rozšířeného formátování musí být adekvátně čitelné
   (tj. alespoň by mělo jít rozlišit nadpisy a odstavce, případně i další
   prvky jako seznamy, odkazy, atd.).
 
-- Soubory projektu (bez použitého software) zabalte do ZIP nebo TAR archivu
+- [ ] Soubory projektu (bez použitého software) zabalte do ZIP nebo TAR archivu
   a pošlete na email vyučujícího.
 
-- Případně projekt tvořte pomocí veřejně přístupného GIT repozitáře a
+- [ ] Případně projekt tvořte pomocí veřejně přístupného GIT repozitáře a
   následně stačí na email vyučujícího zaslat jen odkaz na GIT repozitář.
 
-- Do archivu/repozitáře také přidejte informace o projektu dle zadání v
+- [ ] Do archivu/repozitáře také přidejte informace o projektu dle zadání v
   souboru "BI-XML-PROJEKT-PREZENTACE.txt", viz další odrážka.
 
-- Pokud děláte projekt samostatně do archivu/repozitáře přidejte seznam
+- [ ] Pokud děláte projekt samostatně do archivu/repozitáře přidejte seznam
   použitých příkazů (nebo skript s čitelným zdrojovým kódem co tyto příkazy
   automaticky provede) a krátký popis projektu (adresářová struktura,
   potřebný software, atd.).
