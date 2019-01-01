@@ -24,6 +24,8 @@
   dokumentů. V RelaxNG schema se pokuste využít alespoň některé možnosti
   pokročilejší validace co jazyk nabízí navíc oproti DTD.
 
+- [x] Přidejte do XML obrázky.
+
 - [ ] Pomocí XSLT vygenerujte (X)HTML výstupy (tj. souhrný index obsahující
   odkazy na jednotlivé oblasti a samostatnou stránku pro každou oblast
   obsahující detailní informace).

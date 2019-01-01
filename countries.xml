@@ -3,6 +3,12 @@
 <countries>
     <country id="id_1">
         <name>Russia</name>
+        <images>
+            <image>
+                <text>Flag</text>
+                <filename>RS-flag.gif</filename>
+            </image>
+        </images>
         <government>
             <chief-of-state>
                 <person>
@@ -105,6 +111,12 @@
     </country>
     <country id="id_2">
         <name>Canada</name>
+        <images>
+            <image>
+                <text>Flag</text>
+                <filename>CA-flag.gif</filename>
+            </image>
+        </images>
         <government>
             <chief-of-state>
                 <person>
@@ -223,6 +235,12 @@
     </country>
     <country id="id_3">
         <name>United States</name>
+        <images>
+            <image>
+                <text>Flag</text>
+                <filename>US-flag</filename>
+            </image>
+        </images>
         <government>
             <chief-of-state>
                 <person>
@@ -330,6 +348,12 @@ Pacific island</name>
     </country>
     <country id="id_4">
         <name>China</name>
+        <images>
+            <image>
+                <text>Flag</text>
+                <filename>CH-flag.gif</filename>
+            </image>
+        </images>
         <government>
             <chief-of-state>
                 <person>

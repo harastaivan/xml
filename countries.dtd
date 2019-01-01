@@ -1,13 +1,15 @@
 <!ELEMENT countries (country+)>
 
-<!ELEMENT country (name, government, geography, society, economy)>
+<!ELEMENT country (name, images, government, geography, society, economy)>
 
 <!ELEMENT name (#PCDATA)>
+<!ELEMENT images (image+)>
 <!ELEMENT government (chief-of-state, head-of-government, government-type, capital, legislature, judiciary)>
 <!ELEMENT geography (area, climate, natural-resources)>
 <!ELEMENT society (population, language)>
 <!ELEMENT economy (overview, gdp, gdp-per-capita)>
 
+<!ELEMENT image (text, filename)>
 <!ELEMENT chief-of-state (person)>
 <!ELEMENT head-of-government (person)>
 <!ELEMENT government-type (text)>
@@ -23,8 +25,9 @@
 <!ELEMENT gdp (unit, dollar)>
 <!ELEMENT gdp-per-capita (dollar)>
 
-<!ELEMENT person (name)>
 <!ELEMENT text (#PCDATA)>
+<!ELEMENT filename (#PCDATA)>
+<!ELEMENT person (name)>
 <!ELEMENT city (name)>
 <!ELEMENT house (original-name, name, seats)>
 <!ELEMENT court (name, members)>

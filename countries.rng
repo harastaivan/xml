@@ -8,6 +8,18 @@
             <element name="name">
                 <data type="string"/>
             </element>
+            <element name="images">
+                <oneOrMore>
+                    <element name="image">
+                        <element name="text">
+                            <data type="string"/>
+                        </element>
+                        <element name="filename">
+                            <data type="string"/>
+                        </element>
+                    </element>
+                </oneOrMore>
+            </element>
             <element name="government">
                 <element name="chief-of-state">
                     <element name="person">
