@@ -10,6 +10,10 @@
 
 `xmllint --noout --relaxng countries.rng countries.xml`
 
+### XSLT XHTML
+
+`xsltproc -o xhtml/xhtml-output.html xhtml/xhtml-transformation.xsl countries.xml`
+
 ## Zadání
 
 - [x] Vytvořte XML dokumenty se všemi daty pro každou zadanou oblast (z
