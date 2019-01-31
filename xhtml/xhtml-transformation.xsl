@@ -12,43 +12,34 @@
                 <meta http-equiv="content-language" content="en"/>
                 <meta name="author" content="Ivan Harašta"/>
                 <title>xHTML Countries</title>
-                <link rel="stylesheet" type="text/css" href="./css/xhtml-output.css"/>
+                <link rel="stylesheet" type="text/css" href="./css/github-markdown.css"/>
             </head>
             <body>
-                <div id="bg-stripes"></div>
-                <div id="bg-top-line"></div>
-                <div id="main-wrapper" class="centered">
-                    <div id="header">
-                        <div id="main-title" class="l-float c-white">HTML output of countries
-                            <span class="c-red">(xHTML)</span>
+                <div id="main" class="markdown-body centered">
+                    <div id="content" class="countries">
+                        <div>
+                            <h3>The World Factbook of Countries</h3>
+                            <p>harasiva</p>
                         </div>
-                        <div id="log-info" class="r-float c-white">harasiva (BI-XML)</div>
-                    </div>
-
-                    <!-- ====== content ====== -->
-                    <div id="content" class="b-yellow t-margin-15">
-                        <div class="inner-pad-15">
-                            <div id="inner-wrapper">
-
+                        <hr/>
                                 <xsl:for-each select="countries/country">
-                                    <div class="box">
-                                        <h2>
+                                    <div class="country">
+                                        <h1>
                                             <xsl:value-of select="name"/>
-                                        </h2>
+                                        </h1>
 
                                         <xsl:if test="string(images)">
                                             <div class="right-box">
                                                 <xsl:element name="img">
                                                     <xsl:attribute name="src">../resources/<xsl:value-of select="@id"/>/<xsl:value-of select="images/image/filename"/></xsl:attribute>
-                                                    <xsl:attribute name="class">main-logo</xsl:attribute>
-                                                </xsl:element>
-                                                <xsl:element name="span">
-                                                    <xsl:value-of select="images/image/text"/>
+                                                    <xsl:attribute name="class">smaller</xsl:attribute>
+                                                    <xsl:attribute name="align">right</xsl:attribute>
+                                                    <xsl:attribute name="alt"><xsl:value-of select="images/image/text"/></xsl:attribute>
                                                 </xsl:element>
                                             </div>
                                         </xsl:if>
 
-                                        <h3>Government</h3>
+                                        <h2>Government</h2>
                                         <ul>
                                             <li>
                                                 <strong>Chief of State: </strong>
@@ -88,7 +79,7 @@
                                             </li>
                                         </ul>
 
-                                        <h3>Geography</h3>
+                                        <h2>Geography</h2>
                                         <ul>
                                             <li><strong>Area: </strong>
                                                 <ul>
@@ -126,7 +117,7 @@
                                             </li>
                                         </ul>
 
-                                        <h3>Society</h3>
+                                        <h2>Society</h2>
                                         <ul>
                                             <li>
                                                 <strong>Population: </strong>
@@ -139,13 +130,25 @@
                                                 other <xsl:value-of select="society/language/other/percentage"/>%
                                             </li>
                                         </ul>
+
+                                        <h2>Economy</h2>
+                                        <ul>
+                                            <li>
+                                                <strong>Economic Overview: </strong>
+                                                <xsl:value-of select="economy/overview/text"/>
+                                            </li>
+                                            <li>
+                                                <strong>GDP: </strong>
+                                                $<xsl:value-of select="economy/gdp/dollar"/>&#160;<xsl:value-of select="economy/gdp/unit"/>
+                                            </li>
+                                            <li>
+                                                <strong>GDP per capita: </strong>
+                                                $<xsl:value-of select="economy/gdp-per-capita/dollar"/>
+                                            </li>
+                                        </ul>
                                     </div>
                                 </xsl:for-each>
-
-                            </div>
-                        </div>
                     </div>
-                    <!-- ====== content end ====== -->
 
                 </div>
             </body>

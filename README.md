@@ -12,6 +12,7 @@
 
 ### XSLT XHTML
 
+`xmllint --noout xhtml/xhtml-transformation.xsl`
 `xsltproc -o xhtml/xhtml-output.html xhtml/xhtml-transformation.xsl countries.xml`
 
 ## Zadání
