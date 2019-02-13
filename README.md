@@ -15,6 +15,10 @@
 `cd xhtml/
 java -jar saxon9he.jar ../countries.xml xhtml-transformation.xsl`
 
+### XSLT PDF
+
+`fop -xml countries.xml -xsl pdf/pdf-transformation.xsl -pdf pdf/pdf-output.pdf`
+
 ## Zadání
 
 - [x] Vytvořte XML dokumenty se všemi daty pro každou zadanou oblast (z
@@ -35,10 +39,10 @@ java -jar saxon9he.jar ../countries.xml xhtml-transformation.xsl`
   odkazy na jednotlivé oblasti a samostatnou stránku pro každou oblast
   obsahující detailní informace).
 
-- [ ] Pomocí XSL-FO vygenerujte PDF výstup (tj. dokument obsahující odkazy na
+- [x] Pomocí XSL-FO vygenerujte PDF výstup (tj. dokument obsahující odkazy na
   jednotlivé oblasti a detailní informace o každé oblasti).
 
-- [ ] Buď vygenerujte ePub výstup (tj. ebook připravený k načtení v software
+- [x] Buď vygenerujte ePub výstup (tj. ebook připravený k načtení v software
   podporujícím ePub formát), nebo do (X)HTML a PDF výstupů přidejte obrázky
   (stačí vlajky nebo mapy a podobně), navigaci pro sekce s detailními
   informacemi (stačí pro hlavní sekce jako "Introduction", "Geography",
@@ -46,7 +50,7 @@ java -jar saxon9he.jar ../countries.xml xhtml-transformation.xsl`
   (použijte CSS a možnosti formátování v XSL-FO včetně číslování stran a
   přidání záhlaví či zápatí).
 
-- [ ] Schema (DTD i RelaxNG), stylesheety (XSLT i XSL-FO) a další části
+- [x] Schema (DTD i RelaxNG), stylesheety (XSLT i XSL-FO) a další části
   projektu tvořte adekvátně obecné aby byla zajištěna funkčnost pro všechny
   zadané oblasti. Všechny XML dokumenty musí být "well-formed" + "valid". I
   základní výstupy bez rozšířeného formátování musí být adekvátně čitelné
@@ -56,13 +60,13 @@ java -jar saxon9he.jar ../countries.xml xhtml-transformation.xsl`
 - [ ] Soubory projektu (bez použitého software) zabalte do ZIP nebo TAR archivu
   a pošlete na email vyučujícího.
 
-- [ ] Případně projekt tvořte pomocí veřejně přístupného GIT repozitáře a
+- [x] Případně projekt tvořte pomocí veřejně přístupného GIT repozitáře a
   následně stačí na email vyučujícího zaslat jen odkaz na GIT repozitář.
 
-- [ ] Do archivu/repozitáře také přidejte informace o projektu dle zadání v
+- [x] Do archivu/repozitáře také přidejte informace o projektu dle zadání v
   souboru "BI-XML-PROJEKT-PREZENTACE.txt", viz další odrážka.
 
-- [ ] Pokud děláte projekt samostatně do archivu/repozitáře přidejte seznam
+- [x] Pokud děláte projekt samostatně do archivu/repozitáře přidejte seznam
   použitých příkazů (nebo skript s čitelným zdrojovým kódem co tyto příkazy
   automaticky provede) a krátký popis projektu (adresářová struktura,
   potřebný software, atd.).
