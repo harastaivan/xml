@@ -17,7 +17,7 @@
 
 ## Zadání
 
-- [ ] Vytvořte XML dokumenty se všemi daty pro každou zadanou oblast (z
+- [x] Vytvořte XML dokumenty se všemi daty pro každou zadanou oblast (z
   https://www.cia.gov/library/publications/the-world-factbook/). Podrobnosti
   k výběru oblastí jsou v souboru "BI-XML-PROJEKT-VÝBĚR-ZADÁNÍ.txt". Pokud
   nezvládnete v dokumentu uvést všechna data o dané oblasti (např. protože

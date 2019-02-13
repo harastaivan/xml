@@ -1,0 +1,108 @@
+<country id="id_1">
+    <name>Russia</name>
+    <images>
+        <image>
+            <text>Flag</text>
+            <filename>RS-flag.gif</filename>
+        </image>
+    </images>
+    <government>
+        <chief-of-state>
+            <person>
+                <name>President Vladimir Vladimirovich PUTIN</name>
+            </person>
+        </chief-of-state>
+        <head-of-government>
+            <person>
+                <name>Premier Dimitriy Anatolyevich MEDVEDEV</name>
+            </person>
+        </head-of-government>
+        <government-type>
+            <text>semi-presidential federation</text>
+        </government-type>
+        <capital>
+            <city>
+                <name>Moscow</name>
+            </city>
+        </capital>
+        <legislature>
+            <house>
+                <original-name>Federalnoye Sobraniye</original-name>
+                <name>Federal Assembly</name>
+                <seats>170</seats>
+            </house>
+            <house>
+                <original-name>Gosudarstvennaya Duma</original-name>
+                <name>State Duma</name>
+                <seats>450</seats>
+            </house>
+        </legislature>
+        <judiciary>
+            <court>
+                <name>Supreme Court of the Russian Federation</name>
+                <members>70</members>
+            </court>
+            <court>
+                <name>Constitutional Court</name>
+                <members>19</members>
+            </court>
+        </judiciary>
+    </government>
+    <geography>
+        <area>
+            <unit>sq km</unit>
+            <total>17098242</total>
+            <land>16377742</land>
+            <water>720500</water>
+        </area>
+        <climate>
+            <text>ranges from steppes in the south through humid continental in much of European Russia</text>
+            <text>subarctic in Siberia to tundra climate in the polar north</text>
+            <text>winters vary from cool along Black Sea coast to frigid in Siberia</text>
+            <text>summers vary from warm in the steppes to cool along Arctic coast</text>
+        </climate>
+        <natural-resources>
+            <natural-resource>oil</natural-resource>
+            <natural-resource>natural gas</natural-resource>
+            <natural-resource>coal</natural-resource>
+            <natural-resource>many strategic minerals</natural-resource>
+            <natural-resource>reserves of rare earth elements</natural-resource>
+            <natural-resource>timber</natural-resource>
+        </natural-resources>
+    </geography>
+    <society>
+        <population>
+            <unit>million</unit>
+            <total>142.3</total>
+        </population>
+        <language>
+            <official>
+                <name>Russian</name>
+                <percentage>85.7</percentage>
+            </official>
+            <unofficial>
+                <name>Tatar</name>
+                <percentage>3.2</percentage>
+            </unofficial>
+            <unofficial>
+                <name>Chechen</name>
+                <percentage>1</percentage>
+            </unofficial>
+            <other>
+                <percentage>10.1</percentage>
+            </other>
+        </language>
+    </society>
+    <economy>
+        <overview>
+            <text>reforms have stalled in recent years and Russia remains a predominantly statist economy with a high concentration of wealth in officials' hands, particularly in the energy, transportation, and banking sectors; as one of the world's leading producers of oil and natural gas Russia is vulnerable to boom and bust cycles that follow swings in global commodity prices</text>
+        </overview>
+        <gdp>
+            <unit>trillion</unit>
+            <dollar>4</dollar>
+        </gdp>
+        <gdp-per-capita>
+            <dollar>27900</dollar>
+        </gdp-per-capita>
+    </economy>
+</country>

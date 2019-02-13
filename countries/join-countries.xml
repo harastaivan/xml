@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!DOCTYPE countries SYSTEM "../countries.dtd" [
+<!ENTITY country1 SYSTEM "russia.xml">
+<!ENTITY country2 SYSTEM "canada.xml">
+<!ENTITY country3 SYSTEM "us.xml">
+<!ENTITY country4 SYSTEM "china.xml">
+]>
+
+<countries>
+&country1;
+&country2;
+&country3;
+&country4;
+</countries>
