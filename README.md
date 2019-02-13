@@ -12,8 +12,8 @@
 
 ### XSLT XHTML
 
-`xmllint --noout xhtml/xhtml-transformation.xsl`
-`xsltproc -o xhtml/xhtml-output.html xhtml/xhtml-transformation.xsl countries.xml`
+`cd xhtml/
+java -jar saxon9he.jar ../countries.xml xhtml-transformation.xsl`
 
 ## Zadání
 
@@ -31,7 +31,7 @@
 
 - [x] Přidejte do XML obrázky.
 
-- [ ] Pomocí XSLT vygenerujte (X)HTML výstupy (tj. souhrný index obsahující
+- [x] Pomocí XSLT vygenerujte (X)HTML výstupy (tj. souhrný index obsahující
   odkazy na jednotlivé oblasti a samostatnou stránku pro každou oblast
   obsahující detailní informace).
 
