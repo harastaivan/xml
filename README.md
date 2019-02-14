@@ -10,12 +10,14 @@
 
 `xmllint --noout --relaxng countries.rng countries.xml`
 
-### XSLT XHTML
+### XHTML
 
-`cd xhtml/
-java -jar saxon9he.jar ../countries.xml xhtml-transformation.xsl`
+```text
+cd xhtml/
+java -jar saxon9he.jar ../countries.xml xhtml-transformation.xsl
+```
 
-### XSLT PDF
+### PDF
 
 `fop -xml countries.xml -xsl pdf/pdf-transformation.xsl -pdf pdf/pdf-output.pdf`
 
